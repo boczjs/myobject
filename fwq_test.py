@@ -6,13 +6,13 @@
 @Description: In User Settings Edit
 @FilePath: \myobject\fwq_test.py
 '''
-import numpy as np 
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+import numpy as np
 
-a=np.arange(1,48,1)
-h=2
+a = np.arange(1, 48, 1)
+h = 2
 for n in range(len(a)):
-    n=n+1
-    if n==2:
+    n = n+1
+    if n == 2:
         break
 print(n)
